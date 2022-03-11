@@ -12,7 +12,9 @@
     <title>Cartão de Visita</title>
 </head>
     <body>
-
+        <header>
+            <p id="reminder"></p>
+        </header>
         <div class="container">
             <div class="card">
                 <div class="card-bio">
@@ -20,19 +22,19 @@
                         <img src="leo.jpg" alt="Person" />
                     </div>
                     <div class="person-info">
-                        <h3>NAME</h3>
+                        <h3>LEONARDO PIMENTEL</h3>
                         <h3>Greeting</h3>
-                        <p>Hi! I guess it's better talk about me in a json, sup?</p><br />
+                        <p id="greeting"></p><br />
                         <h3>AboutMe</h3>
-                        <p>I call myself an digital highlander, i past last years walking alone here and doing nasty tech stuff on my house</p>
+                        <p id="aboutMe"></p>
                     </div>
                     <button class="card-btn">
-                        <span class="card-btn-contact">Contate-Me</span>
+                        <span class="card-btn-contact">Contact Me</span>
                         <i class="fas fa-angle-up"></i>
                     </button>
                 </div>
                 <div class="card-contact">
-                    <h4>Meus Contatos</h4>
+                    <h4>My Contacts</h4>
                 </div>
                 <div class="card-social email">
                     <div class="icon-wrapper">
@@ -40,7 +42,7 @@
                     </div>
                     <div class="contact-details">
                         <h4>Email</h4>
-                        <p>email@email.com</p>
+                        <p id="email"><a href=""></a></p>
                     </div>   
                     <span>></span>
                 </div>
@@ -50,7 +52,7 @@
                     </div>
                     <div class="contact-details">
                         <h4>Linkedin</h4>
-                        <p>@leonardo-araujo-pimentel-26619972</p>
+                        <p id="linkedin"><a href=""></a></p>
                     </div>   
                     <span>></span>
                 </div>
@@ -60,16 +62,16 @@
                     </div>
                     <div class="contact-details">
                         <h4>mobileNumber</h4>
-                        <p>+5571988889706</p>
+                        <p id="mobileNumber"><a href=""></a></p>
                     </div>   
                     <span>></span>
                 </div>
             </div>
         </div>
-        <footer class="">
-            If you seeing this on your web browser, ya you doing right
+        <footer>
+            <p>By AleGomes</p>
         </footer>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
         <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
