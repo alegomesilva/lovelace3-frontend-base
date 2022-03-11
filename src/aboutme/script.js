@@ -9,7 +9,6 @@ document.querySelector(".card-btn").addEventListener('click', () => {
 
 fetch("https://simple-market-backend.herokuapp.com/aboutme") //"https://jsonplaceholder.typicode.com/users"
     .then(response => response.json())
-
     .then(data => {
         $('#reminder').append(`"${data.reminder}"`);
         $('#greeting').append(`"${data.greeting}"`);
